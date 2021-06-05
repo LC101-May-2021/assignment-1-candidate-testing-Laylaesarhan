@@ -15,17 +15,11 @@ function askQuestion() {
   for (let i=0; i<questions.length; i++) {
     let answers = input.question(questions[i]);
     candidateAnswers.push(answers);
-  }
-
-  for (let i =0; i<questions.length; i++) {
-    console.log(`Canidate Name: ${candidateName}`);
-    console.log(`${i+1}) ${questions[i]}`)
-    console.log(`Your Answer: ${candidateAnswers[i]}`)
-    console.log(`Correct Answer: ${correctAnswers[i]}`)
-    console.log(" ")
+     console.log(`Your Answer: ${candidateAnswers[i]}`);
+    console.log(`Correct Answer: ${correctAnswers[i]}`);
+    console.log(" ");
   }
 }
- 
 function gradeQuiz(candidateAnswers) {
  
  let numCorrect = 0;
