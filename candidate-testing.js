@@ -61,9 +61,9 @@ function runProgram() {
 
 module.exports = {
   candidateName: candidateName,
-  questions: questions,
-  correctAnswers: correctAnswers,
-  candidateAnswers: candidateAnswers,
+  question: question,
+  correctAnswer: correctAnswer,
+  candidateAnswer: candidateAnswer,
   questions: questions,
   correctAnswers: correctAnswers,
   candidateAnswers: candidateAnswers,
